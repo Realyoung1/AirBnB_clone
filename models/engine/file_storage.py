@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-    Defines a class FileStorage.
+    This func defines the classese of FileStorage.
 """
 
 import json
