@@ -76,7 +76,7 @@ class HBNBCommand(cmd.Cmd):
                             ans = c_l[1] + " " + s_c + " \"" + \
                                 k + "\" \"" + str(v) + "\""
                             return ans
-                        else:
+                        except:
                             return line
                     else:
                         return line
