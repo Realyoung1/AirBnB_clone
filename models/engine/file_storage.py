@@ -48,10 +48,10 @@ class FileStorage:
                 for key, value in from_json.items():
                     attr_cls_name = value.pop("__class__")
                     self.new(eval(attr_cls_name)(**value))
-    except FileNotFoundError:
-        pass
-    except json.JSONDecodeError:
-        pass
-    except Exception as e:
-        # Handle other unexpected exceptions
-        print(f"An error occurred: {e}")
+        except FileNotFoundError:
+            pass
+        except json.JSONDecodeError:
+            pass
+        except Exception as e:
+            # Handle other unexpected exceptions
+            print(f"An error occurred: {e}")
