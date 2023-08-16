@@ -2,9 +2,9 @@
 """Definett the unittests for console.py files.
 
 """
-import os
 import sys
 import unittest
+import os
 from models import storage
 from models.engine.file_storage import FileStorage
 from console import HBNBCommand
