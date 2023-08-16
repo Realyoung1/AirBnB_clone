@@ -1,15 +1,6 @@
 #!/usr/bin/python3
 """Definett the unittests for console.py files.
 
-Unittest class:
-    TestHBNBCommand_prompting
-    TestHBNBCommand_help
-    TestHBNBCommand_exit
-    TestHBNBCommand_create
-    TestHBNBCommand_show
-    TestHBNBCommand_all
-    TestHBNBCommand_destroy
-    TestHBNBCommand_update
 """
 import os
 import sys
